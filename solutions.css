@@ -1,0 +1,42 @@
+/*esercizio 1*/
+.ex-1-square{
+    transition: 1.5s;
+}
+.ex-1-square:hover{
+    background-color: red;
+}
+
+/*esercizio 1*/
+.ex-2-square{
+    transition: 3s;
+}
+.ex-2-square:hover{
+    width: 100%;
+}
+
+/*esercizio 3*/
+.ex-3-square{
+    transition: 1.5s;
+}
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/*esercizio 4*/
+.ex-4-square{
+    transition: 1.5s;
+}
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/*esercizio 5*/
+.ex-5-square{
+    transition: 2s;
+}
+.ex-5-square:hover{
+    transform: scale(2);
+}
+.ex-5-square:active{
+    transform: scale(.6);
+}
