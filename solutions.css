@@ -91,4 +91,20 @@
     100%{transform: rotate(0);}
 }
 
-
+/*esercizio 12*/
+.ex-12-button:hover .ex-12-top-white{
+    animation: movetop 1.5s linear;   
+}
+@keyframes movetop{
+    0%{left: 20%;}
+    50%{left: calc(100% - 5px);}
+    100%{left: 20%;}
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: move 1.5s linear;   
+}
+@keyframes move{
+    0%{right: 25%;}
+    50%{right: calc(100% - 55px);}
+    100%{right: 25%;}
+}
